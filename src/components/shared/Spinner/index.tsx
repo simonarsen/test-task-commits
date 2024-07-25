@@ -5,7 +5,7 @@ export const Spinner = () => {
     return (
         <SyncLoader 
             color="#2563EB"
-            speedMultiplier={1}
+            speedMultiplier={1} 
         />
     )
 }
