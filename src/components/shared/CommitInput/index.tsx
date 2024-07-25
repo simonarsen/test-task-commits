@@ -8,7 +8,7 @@ export const CommitInput: React.FC<CommitInputProps> = ({ searchTerm, setSearchT
 
   useEffect(() => {
     setSearchTerm(debouncedSearchTerm);
-  }, [debouncedSearchTerm, setSearchTerm]);
+  }, [debouncedSearchTerm, setSearchTerm]); 
 
   return (
     <input
